@@ -1,0 +1,31 @@
+.slide-in-start {
+  animation: slide-in-start 2s forwards; /* animation property */
+  visibility: hidden; /* hide element before animation */
+}
+
+/* Animation keyframes */
+@keyframes slide-in-start {
+  from {
+    transform: translateX(-100%); /* start offscreen */
+  }
+  to {
+    transform: translateX(0); /* end onscreen */
+    visibility: visible; /* make element visible */
+  }
+}
+
+.slide-in-end {
+  animation: slide-in-end 2s forwards; /* animation property */
+  visibility: hidden; /* hide element before animation */
+}
+@keyframes slide-in-end {
+  from {
+    transform: translateX(100%); /* start offscreen */
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0); /* end onscreen */
+    visibility: visible; /* make element visible */
+    opacity: 1;
+  }
+}

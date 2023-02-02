@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- w3 animate link -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+    <link rel="stylesheet" href="animation.css" />
+    <style>
+      #main {
+        position: relative;
+        top: 75px;
+      }
+      #profile {
+        position: relative;
+        top: -50px;
+      }
+      .bg-lightgray {
+        background-color: lightgray;
+      }
+      * {
+        transition: 0.5s;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-lightgray">
+    <div class="container mt-3 bg-white" id="main">
+      <div class="text-center" id="profile">
+        <i
+          class="fas fa-user-circle fa-8x bg-primary p-3 rounded-4 text-light"
+        ></i>
+      </div>
+      <div class="text-center">
+        <h2 class="fw-bold text-secondary">Hello,</h2>
+        <h2 class="text-secondary">
+          My name is <span class="text-primary">Paing Thu Htwe</span> and I'm a
+          web developer.
+        </h2>
+        <hr class="mx -1 mx-lg-5" />
+      </div>
+
+      <div class="row flex-column flex-lg-row m-3 mx-lg-4 g-0">
+        <!-- about me and contact info -->
+
+        <div class="col col-lg-8 pe-0 pe-lg-3 slide-in-start">
+          <div class="">
+            <h4># ABOUT ME</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              consequuntur fugiat veniam tempore eos pariatur? Praesentium
+              reiciendis tempora, delectus sint, animi exercitationem
+              aspernatur, laboriosam ipsam officia commodi sed ex aperiam.
+            </p>
+          </div>
+        </div>
+        <div class="col col-lg-4 slide-in-end">
+          <div class="">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="h4"># CONTACT INFO</div>
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-phone me-2"></i>+959 780 909 574
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-envelope me-2"></i
+                >paingthuhtwe.official@gmail.com
+              </li>
+              <li class="list-group-item">
+                <i class="fab fa-facebook me-2"></i>Facebook
+                <div>
+                  <small class="text-muted ms-4"
+                    >https://www.facebook.com/paingthuhtweofl</small
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <i class="fab fa-twitter me-2"></i>Twitter
+                <div>
+                  <small class="text-muted ms-4"
+                    >https://www.twitter.com/paingthuhtweofl</small
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- education and skills -->
+        <div class="col col-lg-8 mt-3 slide-in-start">
+          <h4># EDUCATION & EXPERIENCE</h4>
+          <div class="bg-lightgray p-3 me-0 me-lg-3 rounded">
+            <p class="mb-0">
+              1996 -&ThickSpace;&ThickSpace;&ThickSpace; Whitter Technical High
+              School
+            </p>
+            <p>
+              1999 &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+              <small class="text-muted"
+                >Lorem ipsum dolor sit amet consectetur adipisicing.</small
+              >
+            </p>
+            <p class="mb-0">
+              2000 -&ThickSpace;&ThickSpace;&ThickSpace; Salen State Collage
+            </p>
+            <p>
+              2003 &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+              <small class="text-muted"
+                >Lorem ipsum dolor sit amet consectetur adipisicing.</small
+              >
+            </p>
+            <p class="mb-0">
+              2004 -&ThickSpace;&ThickSpace;&ThickSpace; Massachusets Institue
+              of Technology
+            </p>
+            <p>
+              2008 &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+              <small class="text-muted"
+                >Lorem ipsum dolor sit amet consectetur adipisicing.</small
+              >
+            </p>
+            <p class="mb-0">
+              2009 -&ThickSpace;&ThickSpace;&ThickSpace; Web Programming Job
+            </p>
+            <p>
+              2014 &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+              <small class="text-muted"
+                >Lorem ipsum dolor sit amet consectetur adipisicing.</small
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col col-lg-4 mt-3 slide-in-end" id="skills">
+          <h4># PROGRAMMING SKILLS</h4>
+          <div class="bg-lightgray p-3 rounded">
+            <div class="h6">HTML & CSS</div>
+            <div class="progress bg-white" style="height: 7.5px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated w-100 bg-primary"
+              ></div>
+            </div>
+            <div class="h6 mt-3">Javascript</div>
+            <div class="progress bg-white" style="height: 7.5px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                style="width: 85%"
+              ></div>
+            </div>
+            <div class="h6 mt-3">PHP & MySQL</div>
+            <div class="progress bg-white" style="height: 7.5px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated w-75 bg-primary"
+              ></div>
+            </div>
+            <div class="h6 mt-3">Vue.js</div>
+            <div class="progress bg-white" style="height: 7.5px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                style="width: 65%"
+              ></div>
+            </div>
+            <div class="h6 mt-3">PYTHON</div>
+            <div class="progress bg-white" style="height: 7.5px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                style="width: 50%"
+              ></div>
+            </div>
+            <div class="h6 mt-3">JAVA</div>
+            <div class="progress bg-white" style="height: 7.5px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                style="width: 35%"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <!-- services and recent projects -->
+        <div class="col col-lg-8 mt-3 slide-in-start">
+          <h4># SERVICES</h4>
+          <div>
+            <div class="alert alert-success me-0 me-lg-3 mb-2 py-2">
+              <i class="fas fa-check me-2"></i>
+              HTML & CSS Website Design
+            </div>
+            <div class="alert alert-primary me-0 me-lg-3 mb-2 py-2">
+              <i class="fas fa-check me-2"></i>
+              Web Programming (PHP & PYTHON)
+            </div>
+            <div class="alert alert-success me-0 me-lg-3 mb-2 py-2">
+              <i class="fas fa-check me-2"></i>
+              Server and Database Adminstator
+            </div>
+            <div class="alert alert-primary me-0 me-lg-3 mb-2 py-2">
+              <i class="fas fa-check me-2"></i>
+              Andriod Application (Web & Mobile)
+            </div>
+            <div class="alert alert-success me-0 me-lg-3 mb-2 py-2">
+              <i class="fas fa-check me-2"></i>
+              IOS Application (Web & Mobile)
+            </div>
+            <div class="alert alert-primary me-0 me-lg-3 mb-2 py-2">
+              <i class="fas fa-check me-2"></i>
+              Window Application Development
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 mt-3 slide-in-end">
+          <h4># RECENT PROJECTS</h4>
+          <div class="m-4 text-center">
+            <img class="w-50" src="img/project.avif" alt="" />
+          </div>
+          <div class="m-4 text-center">
+            <img class="w-25" src="img/KFC_logo.svg.webp" alt="" />
+          </div>
+          <div class="m-4 text-center">
+            <img class="w-50" src="img/Google_2015_logo.svg.webp" alt="" />
+          </div>
+        </div>
+        <!-- end services -->
+      </div>
+      <div class="row bg-secondary">
+        <div class="text-center text-light p-3">
+          &copy; Copyright 2022, All Right Reserved.
+        </div>
+      </div>
+      <!-- footer end -->
+    </div>
+
+    <!-- jquery link -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
