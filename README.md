@@ -5,4 +5,4 @@ live demo link
 
 https://paingthuhtwe.github.io/portfolio/
 
-![alt text](https://raw.githubusercontent.com/paingthuhtwe/Slack-B5-Project/master/assests/imgs/view.webp)
+![alt text](https://github.com/paingthuhtwe/portfolio/blob/master/img/Portfolio%20copy.png)
